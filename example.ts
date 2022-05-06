@@ -19,7 +19,7 @@ const topic = "tystark-testing-v2-functions-topic";
 const bucket = "tystark-testing-v2-functions";
 
 /* eslint-disable max-len */
-// export const onalertpublished = alerts.onAlertPublished("alertType", handler("onAlertPublished"));
+export const onalertpublished = alerts.onAlertPublished("alertType", handler("onAlertPublished"));
 export const onnewanrissuepublished = alerts.crashlytics.onNewAnrIssuePublished(handler("onNewAnrIssuePublished"));
 export const onnewfatalissuepublished = alerts.crashlytics.onNewFatalIssuePublished(handler("onNewFatalIssuePublished"));
 export const onnewnonfatalissuepublished = alerts.crashlytics.onNewNonfatalIssuePublished(handler("onNewNonfatalIssuePublished"));
